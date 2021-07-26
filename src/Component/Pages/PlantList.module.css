@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+
+.row {
+    display: flex;
+  }
+  
+  .columnList {
+    margin-left:2rem;
+    flex: 20%;
+    height:654px;
+    /* background-color: #E9FFE1; */
+    background-color:hsl(155, 100%, 90%);
+    margin-right:50px;
+  }
+  .columnSetting{
+      flex: 80%;
+      background-color: #f5fffb; 
+      
+  }

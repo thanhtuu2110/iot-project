@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+.row {
+    /* margin-top: 155px; */
+    display: flex;
+  }
+
+.init_column {
+    flex: 50%;
+    text-align: center;
+    max-height: 8rem;
+    max-width: 20rem;
+    display: flex;
+    width: 15rem;
+    margin-left: auto;
+}
+
+.column {
+animation: in 1s;
+flex: 50%;
+text-align: center;
+max-height: 8rem;
+max-width: 20rem;
+display: flex;
+width: 15rem;
+margin-left: auto;
+}@keyframes in{
+  0%   {opacity: 0}
+  100%   {opacity: 1}
+}
+.update{
+  animation: inout 1s;
+  flex: 50%;
+  text-align: center;
+  max-height: 8rem;
+  max-width: 20rem;
+  display: flex;
+  width: 15rem;
+  margin-left: auto;
+  background-color: rgb(156, 235, 156) !important;
+}@keyframes inout {
+  0%   {opacity: 0; }
+  /* 40%  {opacity: 1;} */
+  90% {opacity: 1;}
+  100% {opacity: 0.5;}
+}
+
+.init_column_right {
+  flex: 50%;
+  text-align: center;
+  max-height: 8rem;
+  max-width: 20rem;
+  display: flex;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column_right {
+  animation: inr 1s;
+  flex: 50%;
+  text-align: center;
+  max-height: 8rem;
+  max-width: 20rem;
+  display: flex;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}@keyframes inr{
+  0%   {opacity: 0}
+  100%   {opacity: 1}
+}
+
+.update_right {
+  animation: inoutr 1s;
+  flex: 50%;
+  text-align: center;
+  max-height: 8rem;
+  max-width: 20rem;
+  display: flex;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(156, 235, 156) !important;
+}@keyframes inoutr {
+  0%   {opacity: 0; }
+  /* 40%  {opacity: 1;} */
+  90% {opacity: 1;}
+  100% {opacity: 0.5;}
+}
+
+
+
+.title{
+font-size: 34px;
+}
+
+.description{
+width: 467px;
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+letter-spacing: -0.03em;
+}
